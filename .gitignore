@@ -1,0 +1,43 @@
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore logs
+logs/
+
+# Ignore virtual environment folders
+venv/
+env/
+.venv/
+
+# Ignore sensitive information (e.g., secret keys, API keys)
+.env
+.env.local
+.env.production
+
+# Ignore IDE and editor-specific files
+.vscode/
+.idea/
+*.sublime-*
+
+# Ignore cache and compiled files
+*.cache
+*.log
+*.pid
+*.sqlite
+
+# Ignore generated files and directories
+dist/
+build/
+*.egg-info/
+*.egg
+*.egg-info/
+*.pyc
+.cache/
+.pytest_cache/
+.mypy_cache/
+
+#ignore Ruff Files
+*ruff_cache

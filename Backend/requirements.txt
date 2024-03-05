@@ -1,0 +1,8 @@
+fastapi
+openai==0.27.0
+python-decouple==3.8
+python-multipart==0.0.6
+python-dotenv
+pytz
+requests
+uvicorn
